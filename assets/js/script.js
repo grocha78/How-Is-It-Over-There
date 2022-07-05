@@ -42,10 +42,10 @@ function getWeather(lat, lon, city) {
           <p id='temp'>Temp: ${data.current.temp}&#176F</p>
           <p id='wind'>Wind speed: ${data.current.wind_speed} MPH</p>
           <p id='humidity'>Humidity: ${data.current.humidity}%</p>
-          <p id='uv-index'>UV Index: <span class='bg-info rounded text-white'>${data.current.uvi}</span></p>`
+          <p id='uv-index'>UV Index: <span class="bg-info rounded">${data.current.uvi}</span></p>`
           );
 
-        // shades uv index based on current EPA categories (at time of coding)
+        // uv index based 
         if(data.current.uvi < 3) {
           $("p").find("span").removeClass("bg-info").addClass("low");
         } else if (data.current.uvi >= 3 && data.current.uvi < 6) {
@@ -75,6 +75,7 @@ function getWeather(lat, lon, city) {
           let forecastYear = forecastDate.getFullYear();
           let forecastFormattedDate = forecastMonth+"/"+forecastDay+"/"+forecastYear;
 
+          // adds forecast element and info
           forecastCardEl.append(
             `<div class="card col-12 col-md-2 rounded-0 text-body bg-info m-2 pb-2">
               <h3 class='mt-1 mb-1'>${forecastFormattedDate}</h3>
@@ -144,7 +145,7 @@ function renderSearchHistory() {
   }
 }
 
-// Loads search history, if it exists, and writes to page
+// Loads search history and writes to page
 function loadStorage() {
   var searchHistory = localStorage.getItem("search");
 

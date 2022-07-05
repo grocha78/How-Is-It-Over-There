@@ -3,8 +3,7 @@
   }
   
 header {
-    background-color: #FFDEE9;
-    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    background-image: linear-gradient( 109.6deg,  rgba(247,253,166,1) 11.2%, rgba(128,255,221,1) 57.8%, rgba(255,128,249,1) 85.9% );
     background-attachment: fixed;
 }
 
@@ -14,8 +13,7 @@ header {
     font-family: "IBM Plex Sans", sans-serif;
     line-height: 1.5;
     font-size: 16px;
-    background-color: #FFDEE9;
-    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    background-image: linear-gradient( 109.6deg,  rgba(247,253,166,1) 11.2%, rgba(128,255,221,1) 57.8%, rgba(255,128,249,1) 85.9% );
     background-attachment: fixed;
   }
   
@@ -34,8 +32,7 @@ header {
   main {
     margin: 20px auto;
     width: 94%;
-    background-color: #FFDEE9;
-    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    background-image: linear-gradient( 109.6deg,  rgba(247,253,166,1) 11.2%, rgba(128,255,221,1) 57.8%, rgba(255,128,249,1) 85.9% );
     background-attachment: fixed;
   }
 
@@ -48,6 +45,7 @@ header {
     margin: 5px 0;
     border-radius: 100% #095454;
     color: #084949;
+    background-image: radial-gradient( circle 759px at -6.7% 50%,  rgba(80,131,73,1) 0%, rgba(140,209,131,1) 26.2%, rgba(178,231,170,1) 50.6%, rgba(144,213,135,1) 74.1%, rgba(75,118,69,1) 100.3% );
     border: none;
     outline: none;
     transform: translate(-1px, -1px);
@@ -56,8 +54,6 @@ header {
    .btn:hover {
     background: #008080;
     background: linear-gradient(to left, #008080 0%, #FFFFFF 25%, #05C1FF 50%, #FFFFFF 75%, #005757 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     transform: translate(0, 0);
     box-shadow: 2px 2px #005757;
   }
@@ -73,11 +69,11 @@ header {
   }
 
   .low {
-    background-color: green;
+    background-color: rgb(0, 189, 0);
   }
   
   .moderate {
-    background-color: yellow;
+    background-color: rgb(216, 216, 32);
   }
   
   .high {
