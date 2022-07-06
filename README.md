@@ -16,6 +16,7 @@
 https://grocha78.github.io/How-Is-It-Over-There/
 
 ## Screenshot
+<img width="1438" alt="Screen Shot 2022-07-05 at 6 42 15 PM" src="https://user-images.githubusercontent.com/105673691/177634808-ebb980f6-27c9-4b01-b80e-2f95ec8b8bea.png">
 
 
 Made with Love by Guadalupe Rocha
